@@ -1,8 +1,8 @@
 """
 Customer Churn Prediction Interactive Application (Streamlit / CLI).
 Supports dual execution:
-1. Streamlit web application: streamlit run app.py
-2. CLI mode: python app.py --predict --tenure 24 --monthly 85.50 --total 256.50
+1. Streamlit web application: streamlit run streamlit_app.py
+2. CLI mode: python streamlit_app.py --predict --tenure 24 --monthly 85.50 --total 256.50
 """
 
 import os

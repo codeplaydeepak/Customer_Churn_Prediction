@@ -83,7 +83,7 @@ Customer churn represents one of the most critical operational and revenue vulne
 customer-churn-prediction/
 ├── README.md                           # Comprehensive documentation & research report
 ├── requirements.txt                    # Exact pinned Python dependencies
-├── app.py                              # Streamlit / interactive CLI entrypoint
+├── streamlit_app.py                    # Streamlit / interactive CLI entrypoint
 ├── data/
 │   ├── raw/
 │   │   └── synthetic_churn_data.csv    # 1,000-row baseline synthetic dataset
@@ -178,7 +178,7 @@ print('Training successful!')
 
 ### Launching Streamlit Web App
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ---

@@ -79,7 +79,7 @@ export const AboutVivaView: React.FC = () => {
         {/* CLI Commands */}
         <div className="p-3 bg-slate-950 text-slate-300 rounded-xl font-mono text-[11px] space-y-1.5 overflow-x-auto">
           <div className="text-slate-500 font-sans text-[10px] font-semibold uppercase">Useful Commands:</div>
-          <div><span className="text-emerald-400">$</span> python3 customer-churn-prediction/app.py --tenure 24 --monthly 85.50 --total 256.50</div>
+          <div><span className="text-emerald-400">$</span> python3 customer-churn-prediction/streamlit_app.py --tenure 24 --monthly 85.50 --total 256.50</div>
           <div><span className="text-emerald-400">$</span> python3 -m pytest customer-churn-prediction/tests/</div>
           <div><span className="text-emerald-400">$</span> python3 customer-churn-prediction/src/train.py</div>
         </div>
