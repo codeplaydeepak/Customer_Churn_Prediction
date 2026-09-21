@@ -1,0 +1,86 @@
+[
+  {
+    "feature": "MonthlyToTotalRatio",
+    "importance": 0.2555,
+    "importance_percentage": 25.55,
+    "type": "Engineered"
+  },
+  {
+    "feature": "Tenure_Months",
+    "importance": 0.2535,
+    "importance_percentage": 25.35,
+    "type": "Numerical"
+  },
+  {
+    "feature": "MonthlyCharges",
+    "importance": 0.227,
+    "importance_percentage": 22.7,
+    "type": "Numerical"
+  },
+  {
+    "feature": "TotalCharges",
+    "importance": 0.1557,
+    "importance_percentage": 15.57,
+    "type": "Numerical"
+  },
+  {
+    "feature": "IsNewCustomer",
+    "importance": 0.0245,
+    "importance_percentage": 2.45,
+    "type": "Engineered"
+  },
+  {
+    "feature": "InternetService_Fiber optic",
+    "importance": 0.0115,
+    "importance_percentage": 1.15,
+    "type": "Categorical"
+  },
+  {
+    "feature": "InternetService_No",
+    "importance": 0.0112,
+    "importance_percentage": 1.12,
+    "type": "Categorical"
+  },
+  {
+    "feature": "PaymentMethod_Bank transfer",
+    "importance": 0.0112,
+    "importance_percentage": 1.12,
+    "type": "Categorical"
+  },
+  {
+    "feature": "PaperlessBilling_Yes",
+    "importance": 0.0095,
+    "importance_percentage": 0.95,
+    "type": "Categorical"
+  },
+  {
+    "feature": "InternetService_DSL",
+    "importance": 0.0094,
+    "importance_percentage": 0.94,
+    "type": "Categorical"
+  },
+  {
+    "feature": "PaperlessBilling_No",
+    "importance": 0.0088,
+    "importance_percentage": 0.88,
+    "type": "Categorical"
+  },
+  {
+    "feature": "PaymentMethod_Mailed check",
+    "importance": 0.0085,
+    "importance_percentage": 0.85,
+    "type": "Categorical"
+  },
+  {
+    "feature": "PaymentMethod_Electronic check",
+    "importance": 0.0071,
+    "importance_percentage": 0.71,
+    "type": "Categorical"
+  },
+  {
+    "feature": "PaymentMethod_Credit card",
+    "importance": 0.0066,
+    "importance_percentage": 0.66,
+    "type": "Categorical"
+  }
+]
